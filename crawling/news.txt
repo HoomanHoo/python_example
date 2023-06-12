@@ -1,0 +1,908 @@
+
+<!DOCTYPE html>
+
+
+
+<html lang="ko" class="os_unknown none unknown version_0 ">
+<head>
+<meta charset="utf-8">
+<meta name="referrer" content="always" />
+
+<meta property="og:author" content="Daum 뉴스" />
+<meta property="og:site_name" content="다음뉴스" />
+<meta property="og:title" content="홈"/>
+<meta property="og:image" content="https://t1.daumcdn.net/media/img-media/mobile/meta/news.png" />
+<meta property="og:description" content="다음뉴스" />
+<meta property="og:url" content="https://news.daum.net/" />
+<link rel="shortcut icon" href="https://m2.daumcdn.net/img-media/2010ci/Daum_favicon.ico">
+
+<title>홈 | 다음뉴스</title>
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<link rel="stylesheet" type="text/css" href="//t1.daumcdn.net/media/kraken/news/76ecae5/style.css.merged.css" />
+<link rel="stylesheet" type="text/css" href="//t1.daumcdn.net/media/kraken/news/76ecae5/calendar.css.merged.css" />
+
+<!--[if lte IE 8]>
+<script src="https://m2.daumcdn.net/svc/original/U0301/cssjs/JSON-js/fc535e9cc8/json2.min.js"></script>
+<![endif]-->
+<!--[if lt IE 9]>
+<link rel="stylesheet" type="text/css" href="//t1.daumcdn.net/media/kraken/news/76ecae5/ie8.css.merged.css" />
+<![endif]-->
+
+<script src="//t1.daumcdn.net/media/kraken/news/76ecae5/common.merged.js"></script>
+
+<script type="text/javascript" src="https://t1.daumcdn.net/tiara/js/v1/tiara.min.js"></script>
+
+<script>
+  var ENV = {
+    Profile: {
+      isProduction: 'true' || false,
+      isSandbox: '' || false,
+      isCbt: '' || false,
+    }
+  }
+</script>
+        <script src="//t1.daumcdn.net/media/kraken/news/76ecae5/homeMain.merged.js"></script>
+</head>
+<body>
+<div class="direct-link">
+    <!-- 웹접근성용 바로가기 링크 모음 -->
+    <a href="#mainContent">본문 바로가기</a>
+    <a href="#gnbContent">메뉴 바로가기</a>
+</div>
+
+<div class="container-doc">
+<header class="doc-header">
+    <!-- head_top -->
+    <div class="head_top">
+        <h1 class="doc-title">
+            <a href="https://www.daum.net/" class="link_daum" data-tiara-layer="gnb default logo">
+                <img src="//t1.daumcdn.net/media/common/newsview_2021/pc/rtn/logo_daum.png" width="44" height="18" class="logo_daum" alt="Daum">
+            </a>
+            <a href="https://news.daum.net/" id="kakaoServiceLogo" data-tiara-layer="GNB service news">
+                <span class="ir_wa">뉴스</span>
+            </a>
+        </h1>
+        <strong class="screen_out">관련 서비스</strong>
+        <ul class="doc-relate" data-tiara-layer="GNB service">
+            <li><a href="https://entertain.daum.net" class="link_services" data-tiara-layer="enter">연예</a></li>
+            <li><a href="https://sports.daum.net" class="link_services" data-tiara-layer="sports">스포츠</a></li>
+        </ul>
+
+<div id="wrapMinidaum"></div>
+<script type="text/javascript">
+	var minidaum_options = {
+		// background 타입 지정 관련 옵션. default: white.
+		bgType: "white", // white, dark, custom(no background)
+
+		// logout 시 return url 변경 여부 flag : default: false - 다음탑으로 이동
+		enableLogoutRetun: false, // false - 다음탑으로 이동, true - 현재페이지 혹은 returnUrl 값으로 이동
+		returnUrl: '', // default - 현재페이지(window.location.href)
+
+		// 실시간 이슈 사용 여부, default: false
+		disableHotissue: true, // false일 경우 사용, true일 경우 미사용
+
+		// 로고 사용 여부, default: false
+		disableLogo: true, // false일 경우 사용, true일 경우 미사용
+
+		// 티아라 사용 여부, default: false
+		disableTracker: false, // false일 경우 사용, true일 경우 미사용
+
+		// 플래시에 의한 레이어 가림 현상 방지 사용 여부, default: false
+		enableShield: false // false일 경우 미사용, true일 경우 사용
+	}
+</script>
+<script src="https://go.daum.net/minidaum_pc.daum"></script>
+
+    </div> <!-- //head_top -->
+    <!-- gnb -->
+    <nav id="gnbContent" class="doc-gnb">
+        <div class="inner_gnb">
+            <h2 class="screen_out">뉴스 메인메뉴</h2>
+            <ul class="gnb_comm" data-tiara-layer="GNB tab">
+                <li class="on"><a href="/" class="link_gnb" data-tiara-layer="home"><span class="txt_gnb">홈</span></a></li>
+                <li ><a href="/society" class="link_gnb" data-tiara-layer="society"><span class="txt_gnb">사회</span></a></li>
+                <li ><a href="/politics" class="link_gnb" data-tiara-layer="politics"><span class="txt_gnb">정치</span></a></li>
+                <li ><a href="/economic" class="link_gnb" data-tiara-layer="economic"><span class="txt_gnb">경제</span></a></li>
+                <li ><a href="/foreign" class="link_gnb" data-tiara-layer="foreign"><span class="txt_gnb">국제</span></a></li>
+                <li ><a href="/culture" class="link_gnb" data-tiara-layer="culture"><span class="txt_gnb">문화</span></a></li>
+                <li ><a href="/digital" class="link_gnb" data-tiara-layer="digital"><span class="txt_gnb">IT</span></a></li>
+                <li ><a href="/series/" class="link_gnb" data-tiara-layer="series"><span class="txt_gnb">연재</span></a></li>
+                <li ><a href="/photo" class="link_gnb" data-tiara-layer="photo"><span class="txt_gnb">포토</span></a></li>
+                <li><a href="https://focus.daum.net/ch/news/factcheck" class="link_gnb" data-tiara-layer="factcheck"><span class="txt_gnb">팩트체크</span></a></li>
+            </ul>
+        </div>
+    </nav>
+</header>
+
+<main class="doc-main">
+    <section class="inner-main">
+        <h2 id="mainContent" class="screen_out">홈</h2>
+        <div class="main-content">
+            <div class="content-article">
+                    <div class="box_g box_news_issue" data-tiara-layer="headline">
+        <h3 class="screen_out">이슈 기사 목록</h3>
+        <ul class="list_newsissue">
+                <li>
+                    <div class="item_issue" data-tiara-layer="headline1">
+                            <a href="https://v.daum.net/v/20230612160718447" class="wrap_thumb" data-tiara-layer="article_main" data-tiara-id="20230612160718447" data-tiara-type="harmony" data-tiara-ordnum="1" data-tiara-custom="contentUniqueKey=hamny-20230612160718447&clusterId=5000019,5590543,5150094,1691308&clusterTitle=경제,[언론사픽] 주요뉴스,경제,충청북도 청주시&keywordType=NONE,NONE,NONE,NONE">
+                                <img src="https://img1.daumcdn.net/thumb/S96x60ht.u/?fname=https%3A%2F%2Ft1.daumcdn.net%2Fnews%2F202306%2F12%2Fyonhap%2F20230612160718507djge.jpg&scode=media" class="thumb_g" alt=""[픽! 청주] 맑은 물 지키자…&quot;미호종개야 돌아와&quot;">
+                            </a>
+                        <div class="cont_thumb">
+                        <span class="info_thumb">
+                            <span class="logo_cp">
+                                    <img src="https://t1.daumcdn.net/media/news/news2016/cp/cp_yonhap.gif" class="thumb_g" alt="연합뉴스" onerror="this.style.display='none';">
+                            </span>
+                            <span class="txt_category">경제</span>
+                        </span>
+                            <strong class="tit_g">
+                                <a href="https://v.daum.net/v/20230612160718447" class="link_txt" data-tiara-layer="article_main" data-tiara-id="20230612160718447" data-tiara-type="harmony" data-tiara-ordnum="1" data-tiara-custom="contentUniqueKey=hamny-20230612160718447&clusterId=5000019,5590543,5150094,1691308&clusterTitle=경제,[언론사픽] 주요뉴스,경제,충청북도 청주시&keywordType=NONE,NONE,NONE,NONE">
+                                    [픽! 청주] 맑은 물 지키자…"미호종개야 돌아와"
+                                </a>
+                            </strong>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="item_issue" data-tiara-layer="headline1">
+                            <a href="https://v.daum.net/v/20230612160709441" class="wrap_thumb" data-tiara-layer="article_main" data-tiara-id="20230612160709441" data-tiara-type="harmony" data-tiara-ordnum="2" data-tiara-custom="contentUniqueKey=hamny-20230612160709441&clusterId=5590543,5150091,5139529,1691234&clusterTitle=[언론사픽] 주요뉴스,사회,[랭크업] 유레이더 1 OR 2 추가점수,인천광역시 서구&keywordType=NONE,NONE,NONE,NONE">
+                                <img src="https://img1.daumcdn.net/thumb/S96x60ht.u/?fname=https%3A%2F%2Ft1.daumcdn.net%2Fnews%2F202306%2F12%2Fyonhap%2F20230612160709673yfii.jpg&scode=media" class="thumb_g" alt=""연수 술자리서 동료의원에 폭언…인천 서구의원 모욕죄 송치">
+                            </a>
+                        <div class="cont_thumb">
+                        <span class="info_thumb">
+                            <span class="logo_cp">
+                                    <img src="https://t1.daumcdn.net/media/news/news2016/cp/cp_yonhap.gif" class="thumb_g" alt="연합뉴스" onerror="this.style.display='none';">
+                            </span>
+                            <span class="txt_category">사회</span>
+                        </span>
+                            <strong class="tit_g">
+                                <a href="https://v.daum.net/v/20230612160709441" class="link_txt" data-tiara-layer="article_main" data-tiara-id="20230612160709441" data-tiara-type="harmony" data-tiara-ordnum="2" data-tiara-custom="contentUniqueKey=hamny-20230612160709441&clusterId=5590543,5150091,5139529,1691234&clusterTitle=[언론사픽] 주요뉴스,사회,[랭크업] 유레이더 1 OR 2 추가점수,인천광역시 서구&keywordType=NONE,NONE,NONE,NONE">
+                                    연수 술자리서 동료의원에 폭언…인천 서구의원 모욕죄 송치
+                                </a>
+                            </strong>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="item_issue" data-tiara-layer="headline1">
+                            <a href="https://v.daum.net/v/20230612160926557" class="wrap_thumb" data-tiara-layer="article_main" data-tiara-id="20230612160926557" data-tiara-type="harmony" data-tiara-ordnum="3" data-tiara-custom="contentUniqueKey=hamny-20230612160926557&clusterId=5590543,5001160,5815191,5150099,5133624,5133653,5139529&clusterTitle=[언론사픽] 주요뉴스,디바이스,미라클 레터,IT,애플,애플_주식기사,[랭크업] 유레이더 1 OR 2 추가점수&keywordType=NONE,INTEREST,NONE,NONE,INTEREST,NONE,NONE">
+                                <img src="https://img1.daumcdn.net/thumb/S96x60ht.u/?fname=https%3A%2F%2Ft1.daumcdn.net%2Fnews%2F202306%2F12%2Fmk%2F20230612160928162epwt.jpg&scode=media" class="thumb_g" alt=""애플이 공간 컴퓨팅 창조?… 사실은 100년 전에 시작됐다 [미라클레터]">
+                            </a>
+                        <div class="cont_thumb">
+                        <span class="info_thumb">
+                            <span class="logo_cp">
+                                    <img src="https://t1.daumcdn.net/media/news/news2016/cp/cp_mk.gif" class="thumb_g" alt="매일경제" onerror="this.style.display='none';">
+                            </span>
+                            <span class="txt_category">IT</span>
+                        </span>
+                            <strong class="tit_g">
+                                <a href="https://v.daum.net/v/20230612160926557" class="link_txt" data-tiara-layer="article_main" data-tiara-id="20230612160926557" data-tiara-type="harmony" data-tiara-ordnum="3" data-tiara-custom="contentUniqueKey=hamny-20230612160926557&clusterId=5590543,5001160,5815191,5150099,5133624,5133653,5139529&clusterTitle=[언론사픽] 주요뉴스,디바이스,미라클 레터,IT,애플,애플_주식기사,[랭크업] 유레이더 1 OR 2 추가점수&keywordType=NONE,INTEREST,NONE,NONE,INTEREST,NONE,NONE">
+                                    애플이 공간 컴퓨팅 창조?… 사실은 100년 전에 시작됐다 [미라클레터]
+                                </a>
+                            </strong>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="item_issue" data-tiara-layer="headline1">
+                            <a href="https://v.daum.net/v/20230612105202813" class="wrap_thumb" data-tiara-layer="article_main" data-tiara-id="20230612105202813" data-tiara-type="harmony" data-tiara-ordnum="4" data-tiara-custom="contentUniqueKey=hamny-20230612105202813&clusterId=5587646,5590543,5150095&clusterTitle=[언론사픽] 중복기사,[언론사픽] 주요뉴스,국제&keywordType=NONE,NONE,NONE">
+                                <img src="https://img1.daumcdn.net/thumb/S96x60ht.u/?fname=https%3A%2F%2Ft1.daumcdn.net%2Fnews%2F202306%2F12%2FJTBC%2F20230612105204366wprk.jpg&scode=media" class="thumb_g" alt=""월스트리트저널 &quot;북한, 코인 해킹해 핵 자금 3조9천억 조달&quot;">
+                            </a>
+                        <div class="cont_thumb">
+                        <span class="info_thumb">
+                            <span class="logo_cp">
+                                    <img src="https://t1.daumcdn.net/media/news/news2016/cp/cp_JTBC.gif" class="thumb_g" alt="JTBC" onerror="this.style.display='none';">
+                            </span>
+                            <span class="txt_category">국제</span>
+                        </span>
+                            <strong class="tit_g">
+                                <a href="https://v.daum.net/v/20230612105202813" class="link_txt" data-tiara-layer="article_main" data-tiara-id="20230612105202813" data-tiara-type="harmony" data-tiara-ordnum="4" data-tiara-custom="contentUniqueKey=hamny-20230612105202813&clusterId=5587646,5590543,5150095&clusterTitle=[언론사픽] 중복기사,[언론사픽] 주요뉴스,국제&keywordType=NONE,NONE,NONE">
+                                    월스트리트저널 "북한, 코인 해킹해 핵 자금 3조9천억 조달"
+                                </a>
+                            </strong>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="item_issue" data-tiara-layer="headline1">
+                            <a href="https://v.daum.net/v/20230612160514361" class="wrap_thumb" data-tiara-layer="article_main" data-tiara-id="20230612160514361" data-tiara-type="harmony" data-tiara-ordnum="5" data-tiara-custom="contentUniqueKey=hamny-20230612160514361&clusterId=5590543,5139529,5150095&clusterTitle=[언론사픽] 주요뉴스,[랭크업] 유레이더 1 OR 2 추가점수,국제&keywordType=NONE,NONE,NONE">
+                                <img src="https://img1.daumcdn.net/thumb/S96x60ht.u/?fname=https%3A%2F%2Ft1.daumcdn.net%2Fnews%2F202306%2F12%2FNEWS1%2F20230612160514282boaw.jpg&scode=media" class="thumb_g" alt=""'40일 기적생환' 아마존 어린이들…구조대 보며 처음 한 말은?">
+                            </a>
+                        <div class="cont_thumb">
+                        <span class="info_thumb">
+                            <span class="logo_cp">
+                                    <img src="https://t1.daumcdn.net/media/news/news2016/cp/cp_news1.gif" class="thumb_g" alt="뉴스1" onerror="this.style.display='none';">
+                            </span>
+                            <span class="txt_category">국제</span>
+                        </span>
+                            <strong class="tit_g">
+                                <a href="https://v.daum.net/v/20230612160514361" class="link_txt" data-tiara-layer="article_main" data-tiara-id="20230612160514361" data-tiara-type="harmony" data-tiara-ordnum="5" data-tiara-custom="contentUniqueKey=hamny-20230612160514361&clusterId=5590543,5139529,5150095&clusterTitle=[언론사픽] 주요뉴스,[랭크업] 유레이더 1 OR 2 추가점수,국제&keywordType=NONE,NONE,NONE">
+                                    '40일 기적생환' 아마존 어린이들…구조대 보며 처음 한 말은?
+                                </a>
+                            </strong>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="item_issue" data-tiara-layer="headline1">
+                            <a href="https://v.daum.net/v/20230612160408324" class="wrap_thumb" data-tiara-layer="article_main" data-tiara-id="20230612160408324" data-tiara-type="harmony" data-tiara-ordnum="6" data-tiara-custom="contentUniqueKey=hamny-20230612160408324&clusterId=5590543,5150095,5139529&clusterTitle=[언론사픽] 주요뉴스,국제,[랭크업] 유레이더 1 OR 2 추가점수&keywordType=NONE,NONE,NONE">
+                                <img src="https://img1.daumcdn.net/thumb/S96x60ht.u/?fname=https%3A%2F%2Ft1.daumcdn.net%2Fnews%2F202306%2F12%2FNEWS1%2F20230612160409572sdgh.jpg&scode=media" class="thumb_g" alt=""韓, 지난 10년간 성평등 인식 후퇴…이라크·러시아보다 최악-유엔보고서">
+                            </a>
+                        <div class="cont_thumb">
+                        <span class="info_thumb">
+                            <span class="logo_cp">
+                                    <img src="https://t1.daumcdn.net/media/news/news2016/cp/cp_news1.gif" class="thumb_g" alt="뉴스1" onerror="this.style.display='none';">
+                            </span>
+                            <span class="txt_category">국제</span>
+                        </span>
+                            <strong class="tit_g">
+                                <a href="https://v.daum.net/v/20230612160408324" class="link_txt" data-tiara-layer="article_main" data-tiara-id="20230612160408324" data-tiara-type="harmony" data-tiara-ordnum="6" data-tiara-custom="contentUniqueKey=hamny-20230612160408324&clusterId=5590543,5150095,5139529&clusterTitle=[언론사픽] 주요뉴스,국제,[랭크업] 유레이더 1 OR 2 추가점수&keywordType=NONE,NONE,NONE">
+                                    韓, 지난 10년간 성평등 인식 후퇴…이라크·러시아보다 최악-유엔보고서
+                                </a>
+                            </strong>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="item_issue" data-tiara-layer="headline1">
+                            <a href="https://v.daum.net/v/20230612155955086" class="wrap_thumb" data-tiara-layer="article_main" data-tiara-id="20230612155955086" data-tiara-type="harmony" data-tiara-ordnum="7" data-tiara-custom="contentUniqueKey=hamny-20230612155955086&clusterId=5587646,5150091,5590543&clusterTitle=[언론사픽] 중복기사,사회,[언론사픽] 주요뉴스&keywordType=NONE,NONE,NONE">
+                                <img src="https://img1.daumcdn.net/thumb/S96x60ht.u/?fname=https%3A%2F%2Ft1.daumcdn.net%2Fnews%2F202306%2F12%2Fdonga%2F20230612160343990ulwv.jpg&scode=media" class="thumb_g" alt=""TBS, 정치 편향 논란 사과…“사회적 물의 인사 출연 금지”">
+                            </a>
+                        <div class="cont_thumb">
+                        <span class="info_thumb">
+                            <span class="logo_cp">
+                                    <img src="https://t1.daumcdn.net/media/news/news2016/cp/cp_donga.gif" class="thumb_g" alt="동아일보" onerror="this.style.display='none';">
+                            </span>
+                            <span class="txt_category">사회</span>
+                        </span>
+                            <strong class="tit_g">
+                                <a href="https://v.daum.net/v/20230612155955086" class="link_txt" data-tiara-layer="article_main" data-tiara-id="20230612155955086" data-tiara-type="harmony" data-tiara-ordnum="7" data-tiara-custom="contentUniqueKey=hamny-20230612155955086&clusterId=5587646,5150091,5590543&clusterTitle=[언론사픽] 중복기사,사회,[언론사픽] 주요뉴스&keywordType=NONE,NONE,NONE">
+                                    TBS, 정치 편향 논란 사과…“사회적 물의 인사 출연 금지”
+                                </a>
+                            </strong>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="item_issue" data-tiara-layer="headline1">
+                            <a href="https://v.daum.net/v/20230612151507147" class="wrap_thumb" data-tiara-layer="article_main" data-tiara-id="20230612151507147" data-tiara-type="harmony" data-tiara-ordnum="8" data-tiara-custom="contentUniqueKey=hamny-20230612151507147&clusterId=5654073,5001212,5590543,5094115,1691188,5150094&clusterTitle=부동산시장,부동산,[언론사픽] 주요뉴스,집슐랭,서울특별시 마포구,경제&keywordType=INTEREST,INTEREST,NONE,NONE,NONE,NONE">
+                                <img src="https://img1.daumcdn.net/thumb/S96x60ht.u/?fname=https%3A%2F%2Ft1.daumcdn.net%2Fnews%2F202306%2F12%2Fseouleconomy%2F20230612151511722lydk.png&scode=media" class="thumb_g" alt=""매수세 회복 조짐에 보류지도 인기 ···조합들 잇따라 재매각 도전[집슐랭]">
+                            </a>
+                        <div class="cont_thumb">
+                        <span class="info_thumb">
+                            <span class="logo_cp">
+                                    <img src="https://t1.daumcdn.net/media/news/news2016/cp/cp_seouleco.gif" class="thumb_g" alt="서울경제" onerror="this.style.display='none';">
+                            </span>
+                            <span class="txt_category">경제</span>
+                        </span>
+                            <strong class="tit_g">
+                                <a href="https://v.daum.net/v/20230612151507147" class="link_txt" data-tiara-layer="article_main" data-tiara-id="20230612151507147" data-tiara-type="harmony" data-tiara-ordnum="8" data-tiara-custom="contentUniqueKey=hamny-20230612151507147&clusterId=5654073,5001212,5590543,5094115,1691188,5150094&clusterTitle=부동산시장,부동산,[언론사픽] 주요뉴스,집슐랭,서울특별시 마포구,경제&keywordType=INTEREST,INTEREST,NONE,NONE,NONE,NONE">
+                                    매수세 회복 조짐에 보류지도 인기 ···조합들 잇따라 재매각 도전[집슐랭]
+                                </a>
+                            </strong>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="item_issue" data-tiara-layer="headline1">
+                            <a href="https://v.daum.net/v/20230612154410427" class="wrap_thumb" data-tiara-layer="article_main" data-tiara-id="20230612154410427" data-tiara-type="harmony" data-tiara-ordnum="9" data-tiara-custom="contentUniqueKey=hamny-20230612154410427&clusterId=5562668,5565995,5000022,5775726,5150091,5698328,5590543&clusterTitle=mz세대,이직과 퇴사,직장,자격증,사회,고용노동부,[언론사픽] 주요뉴스&keywordType=INTEREST,INTEREST,NONE,INTEREST,NONE,INTEREST,NONE">
+                                <img src="https://img1.daumcdn.net/thumb/S96x60ht.u/?fname=https%3A%2F%2Ft1.daumcdn.net%2Fnews%2F202306%2F12%2Fseouleconomy%2F20230612154455514hwnv.png&scode=media" class="thumb_g" alt=""&quot;불안한 미래&quot; &quot;언제든 이직&quot;···국가자격증에 빠진 ‘MZ사원’">
+                            </a>
+                        <div class="cont_thumb">
+                        <span class="info_thumb">
+                            <span class="logo_cp">
+                                    <img src="https://t1.daumcdn.net/media/news/news2016/cp/cp_seouleco.gif" class="thumb_g" alt="서울경제" onerror="this.style.display='none';">
+                            </span>
+                            <span class="txt_category">사회</span>
+                        </span>
+                            <strong class="tit_g">
+                                <a href="https://v.daum.net/v/20230612154410427" class="link_txt" data-tiara-layer="article_main" data-tiara-id="20230612154410427" data-tiara-type="harmony" data-tiara-ordnum="9" data-tiara-custom="contentUniqueKey=hamny-20230612154410427&clusterId=5562668,5565995,5000022,5775726,5150091,5698328,5590543&clusterTitle=mz세대,이직과 퇴사,직장,자격증,사회,고용노동부,[언론사픽] 주요뉴스&keywordType=INTEREST,INTEREST,NONE,INTEREST,NONE,INTEREST,NONE">
+                                    "불안한 미래" "언제든 이직"···국가자격증에 빠진 ‘MZ사원’
+                                </a>
+                            </strong>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="item_issue" data-tiara-layer="headline1">
+                            <a href="https://v.daum.net/v/20230612160104171" class="wrap_thumb" data-tiara-layer="article_main" data-tiara-id="20230612160104171" data-tiara-type="harmony" data-tiara-ordnum="10" data-tiara-custom="contentUniqueKey=hamny-20230612160104171&clusterId=5590543,5016488,5824979,132437,5150092,5016367,5599922,5139529&clusterTitle=[언론사픽] 주요뉴스,싱하이밍,the300,김석기,정치,the300,[품질검수] 뉴스 필터링,[랭크업] 유레이더 1 OR 2 추가점수&keywordType=NONE,NONE,NONE,NONE,NONE,NONE,NONE,NONE">
+                                <img src="https://img1.daumcdn.net/thumb/S96x60ht.u/?fname=https%3A%2F%2Ft1.daumcdn.net%2Fnews%2F202306%2F12%2Fmoneytoday%2F20230612160105635pkvl.jpg&scode=media" class="thumb_g" alt=""김석기 &quot;싱하이밍 中대사 추방해야…상습적으로 韓 무시&quot;">
+                            </a>
+                        <div class="cont_thumb">
+                        <span class="info_thumb">
+                            <span class="logo_cp">
+                                    <img src="https://t1.daumcdn.net/media/news/news2016/cp/cp_moneytoday.gif" class="thumb_g" alt="머니투데이" onerror="this.style.display='none';">
+                            </span>
+                            <span class="txt_category">정치</span>
+                        </span>
+                            <strong class="tit_g">
+                                <a href="https://v.daum.net/v/20230612160104171" class="link_txt" data-tiara-layer="article_main" data-tiara-id="20230612160104171" data-tiara-type="harmony" data-tiara-ordnum="10" data-tiara-custom="contentUniqueKey=hamny-20230612160104171&clusterId=5590543,5016488,5824979,132437,5150092,5016367,5599922,5139529&clusterTitle=[언론사픽] 주요뉴스,싱하이밍,the300,김석기,정치,the300,[품질검수] 뉴스 필터링,[랭크업] 유레이더 1 OR 2 추가점수&keywordType=NONE,NONE,NONE,NONE,NONE,NONE,NONE,NONE">
+                                    김석기 "싱하이밍 中대사 추방해야…상습적으로 韓 무시"
+                                </a>
+                            </strong>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="item_issue" data-tiara-layer="headline1">
+                            <a href="https://v.daum.net/v/20230612155920066" class="wrap_thumb" data-tiara-layer="article_main" data-tiara-id="20230612155920066" data-tiara-type="harmony" data-tiara-ordnum="11" data-tiara-custom="contentUniqueKey=hamny-20230612155920066&clusterId=5590543,5139529,5079747,5085535,5150095&clusterTitle=[언론사픽] 주요뉴스,[랭크업] 유레이더 1 OR 2 추가점수,[랭크업] 1800자 이상 OR 유레이더2 이상,[사용] 2500자 이상 (기획기사 참조),국제&keywordType=NONE,NONE,NONE,NONE,NONE">
+                                <img src="https://img1.daumcdn.net/thumb/S96x60ht.u/?fname=https%3A%2F%2Ft1.daumcdn.net%2Fnews%2F202306%2F12%2Fyonhap%2F20230612155920896hmzw.jpg&scode=media" class="thumb_g" alt=""중국이 개발도상 대국?…미국, WTO서 中 지위 박탈에 박차">
+                            </a>
+                        <div class="cont_thumb">
+                        <span class="info_thumb">
+                            <span class="logo_cp">
+                                    <img src="https://t1.daumcdn.net/media/news/news2016/cp/cp_yonhap.gif" class="thumb_g" alt="연합뉴스" onerror="this.style.display='none';">
+                            </span>
+                            <span class="txt_category">국제</span>
+                        </span>
+                            <strong class="tit_g">
+                                <a href="https://v.daum.net/v/20230612155920066" class="link_txt" data-tiara-layer="article_main" data-tiara-id="20230612155920066" data-tiara-type="harmony" data-tiara-ordnum="11" data-tiara-custom="contentUniqueKey=hamny-20230612155920066&clusterId=5590543,5139529,5079747,5085535,5150095&clusterTitle=[언론사픽] 주요뉴스,[랭크업] 유레이더 1 OR 2 추가점수,[랭크업] 1800자 이상 OR 유레이더2 이상,[사용] 2500자 이상 (기획기사 참조),국제&keywordType=NONE,NONE,NONE,NONE,NONE">
+                                    중국이 개발도상 대국?…미국, WTO서 中 지위 박탈에 박차
+                                </a>
+                            </strong>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="item_issue" data-tiara-layer="headline1">
+                            <a href="https://v.daum.net/v/20230612160014122" class="wrap_thumb" data-tiara-layer="article_main" data-tiara-id="20230612160014122" data-tiara-type="harmony" data-tiara-ordnum="12" data-tiara-custom="contentUniqueKey=hamny-20230612160014122&clusterId=5590543,5139529,5150095&clusterTitle=[언론사픽] 주요뉴스,[랭크업] 유레이더 1 OR 2 추가점수,국제&keywordType=NONE,NONE,NONE">
+                                <img src="https://img1.daumcdn.net/thumb/S96x60ht.u/?fname=https%3A%2F%2Ft1.daumcdn.net%2Fnews%2F202306%2F12%2Fyonhap%2F20230612160014887ddur.jpg&scode=media" class="thumb_g" alt=""젖먹이 안은 13살 &quot;배고파요&quot; 달려왔다…아마존 극적 구조 순간">
+                            </a>
+                        <div class="cont_thumb">
+                        <span class="info_thumb">
+                            <span class="logo_cp">
+                                    <img src="https://t1.daumcdn.net/media/news/news2016/cp/cp_yonhap.gif" class="thumb_g" alt="연합뉴스" onerror="this.style.display='none';">
+                            </span>
+                            <span class="txt_category">국제</span>
+                        </span>
+                            <strong class="tit_g">
+                                <a href="https://v.daum.net/v/20230612160014122" class="link_txt" data-tiara-layer="article_main" data-tiara-id="20230612160014122" data-tiara-type="harmony" data-tiara-ordnum="12" data-tiara-custom="contentUniqueKey=hamny-20230612160014122&clusterId=5590543,5139529,5150095&clusterTitle=[언론사픽] 주요뉴스,[랭크업] 유레이더 1 OR 2 추가점수,국제&keywordType=NONE,NONE,NONE">
+                                    젖먹이 안은 13살 "배고파요" 달려왔다…아마존 극적 구조 순간
+                                </a>
+                            </strong>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="item_issue" data-tiara-layer="headline1">
+                            <a href="https://v.daum.net/v/20230612160312293" class="wrap_thumb" data-tiara-layer="article_main" data-tiara-id="20230612160312293" data-tiara-type="harmony" data-tiara-ordnum="13" data-tiara-custom="contentUniqueKey=hamny-20230612160312293&clusterId=5001079,5626404,5808269,5590543,5201407,5201411&clusterTitle=주식,ETF ,주가폭락,[언론사픽] 주요뉴스,카테고리별,주식&keywordType=INTEREST,INTEREST,INTEREST,NONE,NONE,NONE">
+                                <img src="https://img1.daumcdn.net/thumb/S96x60ht.u/?fname=https%3A%2F%2Ft1.daumcdn.net%2Fnews%2F202306%2F12%2Fmk%2F20230612160314142rzhh.png&scode=media" class="thumb_g" alt=""“아직도 마이너스네”…2년 전 잘나가던 ETF 수익률 반토막">
+                            </a>
+                        <div class="cont_thumb">
+                        <span class="info_thumb">
+                            <span class="logo_cp">
+                                    <img src="https://t1.daumcdn.net/media/news/news2016/cp/cp_mk.gif" class="thumb_g" alt="매일경제" onerror="this.style.display='none';">
+                            </span>
+                            <span class="txt_category">경제</span>
+                        </span>
+                            <strong class="tit_g">
+                                <a href="https://v.daum.net/v/20230612160312293" class="link_txt" data-tiara-layer="article_main" data-tiara-id="20230612160312293" data-tiara-type="harmony" data-tiara-ordnum="13" data-tiara-custom="contentUniqueKey=hamny-20230612160312293&clusterId=5001079,5626404,5808269,5590543,5201407,5201411&clusterTitle=주식,ETF ,주가폭락,[언론사픽] 주요뉴스,카테고리별,주식&keywordType=INTEREST,INTEREST,INTEREST,NONE,NONE,NONE">
+                                    “아직도 마이너스네”…2년 전 잘나가던 ETF 수익률 반토막
+                                </a>
+                            </strong>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="item_issue" data-tiara-layer="headline1">
+                            <a href="https://v.daum.net/v/20230612160136211" class="wrap_thumb" data-tiara-layer="article_main" data-tiara-id="20230612160136211" data-tiara-type="harmony" data-tiara-ordnum="14" data-tiara-custom="contentUniqueKey=hamny-20230612160136211&clusterId=5590543,5150091,1592314,5139529,5129558,1535746,1691374&clusterTitle=[언론사픽] 주요뉴스,사회,최정우,[랭크업] 유레이더 1 OR 2 추가점수,POSCO_주식기사,POSCO,경상북도 포항시&keywordType=NONE,NONE,INTEREST,NONE,NONE,INTEREST,NONE">
+                                <img src="https://img1.daumcdn.net/thumb/S96x60ht.u/?fname=https%3A%2F%2Ft1.daumcdn.net%2Fnews%2F202306%2F12%2Fyonhap%2F20230612160136778feas.jpg&scode=media" class="thumb_g" alt=""최정우 포스코홀딩스 회장 퇴진 촉구 집회 놓고 포항 여론 갈려">
+                            </a>
+                        <div class="cont_thumb">
+                        <span class="info_thumb">
+                            <span class="logo_cp">
+                                    <img src="https://t1.daumcdn.net/media/news/news2016/cp/cp_yonhap.gif" class="thumb_g" alt="연합뉴스" onerror="this.style.display='none';">
+                            </span>
+                            <span class="txt_category">사회</span>
+                        </span>
+                            <strong class="tit_g">
+                                <a href="https://v.daum.net/v/20230612160136211" class="link_txt" data-tiara-layer="article_main" data-tiara-id="20230612160136211" data-tiara-type="harmony" data-tiara-ordnum="14" data-tiara-custom="contentUniqueKey=hamny-20230612160136211&clusterId=5590543,5150091,1592314,5139529,5129558,1535746,1691374&clusterTitle=[언론사픽] 주요뉴스,사회,최정우,[랭크업] 유레이더 1 OR 2 추가점수,POSCO_주식기사,POSCO,경상북도 포항시&keywordType=NONE,NONE,INTEREST,NONE,NONE,INTEREST,NONE">
+                                    최정우 포스코홀딩스 회장 퇴진 촉구 집회 놓고 포항 여론 갈려
+                                </a>
+                            </strong>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="item_issue" data-tiara-layer="headline1">
+                            <a href="https://v.daum.net/v/20230612160102168" class="wrap_thumb" data-tiara-layer="article_main" data-tiara-id="20230612160102168" data-tiara-type="harmony" data-tiara-ordnum="15" data-tiara-custom="contentUniqueKey=hamny-20230612160102168&clusterId=5590543,5150091,5139529,5079747,5085535&clusterTitle=[언론사픽] 주요뉴스,사회,[랭크업] 유레이더 1 OR 2 추가점수,[랭크업] 1800자 이상 OR 유레이더2 이상,[사용] 2500자 이상 (기획기사 참조)&keywordType=NONE,NONE,NONE,NONE,NONE">
+                                <img src="https://img1.daumcdn.net/thumb/S96x60ht.u/?fname=https%3A%2F%2Ft1.daumcdn.net%2Fnews%2F202306%2F12%2Fyonhap%2F20230612160103106jcip.jpg&scode=media" class="thumb_g" alt=""'출산율 선방' 독일 해법은…한부모 가족까지 포용하는 지원책">
+                            </a>
+                        <div class="cont_thumb">
+                        <span class="info_thumb">
+                            <span class="logo_cp">
+                                    <img src="https://t1.daumcdn.net/media/news/news2016/cp/cp_yonhap.gif" class="thumb_g" alt="연합뉴스" onerror="this.style.display='none';">
+                            </span>
+                            <span class="txt_category">사회</span>
+                        </span>
+                            <strong class="tit_g">
+                                <a href="https://v.daum.net/v/20230612160102168" class="link_txt" data-tiara-layer="article_main" data-tiara-id="20230612160102168" data-tiara-type="harmony" data-tiara-ordnum="15" data-tiara-custom="contentUniqueKey=hamny-20230612160102168&clusterId=5590543,5150091,5139529,5079747,5085535&clusterTitle=[언론사픽] 주요뉴스,사회,[랭크업] 유레이더 1 OR 2 추가점수,[랭크업] 1800자 이상 OR 유레이더2 이상,[사용] 2500자 이상 (기획기사 참조)&keywordType=NONE,NONE,NONE,NONE,NONE">
+                                    '출산율 선방' 독일 해법은…한부모 가족까지 포용하는 지원책
+                                </a>
+                            </strong>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="item_issue" data-tiara-layer="headline1">
+                            <a href="https://v.daum.net/v/20230612160229252" class="wrap_thumb" data-tiara-layer="article_main" data-tiara-id="20230612160229252" data-tiara-type="harmony" data-tiara-ordnum="16" data-tiara-custom="contentUniqueKey=hamny-20230612160229252&clusterId=5590543,5000019,5201407,5201410,5150094,5139529,5079747&clusterTitle=[언론사픽] 주요뉴스,경제,카테고리별,경제일반,경제,[랭크업] 유레이더 1 OR 2 추가점수,[랭크업] 1800자 이상 OR 유레이더2 이상&keywordType=NONE,NONE,NONE,NONE,NONE,NONE,NONE">
+                                <img src="https://img1.daumcdn.net/thumb/S96x60ht.u/?fname=https%3A%2F%2Ft1.daumcdn.net%2Fnews%2F202306%2F12%2Fyonhap%2F20230612160229728spfi.jpg&scode=media" class="thumb_g" alt=""골드만삭스 &quot;中 부동산 수년간 L자형 회복할 듯…경제에 부담&quot;">
+                            </a>
+                        <div class="cont_thumb">
+                        <span class="info_thumb">
+                            <span class="logo_cp">
+                                    <img src="https://t1.daumcdn.net/media/news/news2016/cp/cp_yonhap.gif" class="thumb_g" alt="연합뉴스" onerror="this.style.display='none';">
+                            </span>
+                            <span class="txt_category">경제</span>
+                        </span>
+                            <strong class="tit_g">
+                                <a href="https://v.daum.net/v/20230612160229252" class="link_txt" data-tiara-layer="article_main" data-tiara-id="20230612160229252" data-tiara-type="harmony" data-tiara-ordnum="16" data-tiara-custom="contentUniqueKey=hamny-20230612160229252&clusterId=5590543,5000019,5201407,5201410,5150094,5139529,5079747&clusterTitle=[언론사픽] 주요뉴스,경제,카테고리별,경제일반,경제,[랭크업] 유레이더 1 OR 2 추가점수,[랭크업] 1800자 이상 OR 유레이더2 이상&keywordType=NONE,NONE,NONE,NONE,NONE,NONE,NONE">
+                                    골드만삭스 "中 부동산 수년간 L자형 회복할 듯…경제에 부담"
+                                </a>
+                            </strong>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="item_issue" data-tiara-layer="headline1">
+                            <a href="https://v.daum.net/v/20230612160312292" class="wrap_thumb" data-tiara-layer="article_main" data-tiara-id="20230612160312292" data-tiara-type="harmony" data-tiara-ordnum="17" data-tiara-custom="contentUniqueKey=hamny-20230612160312292&clusterId=5587646,5590543,133556,5139529,5150092,5599922&clusterTitle=[언론사픽] 중복기사,[언론사픽] 주요뉴스,박진,[랭크업] 유레이더 1 OR 2 추가점수,정치,[품질검수] 뉴스 필터링&keywordType=NONE,NONE,NONE,NONE,NONE,NONE">
+                                <img src="https://img1.daumcdn.net/thumb/S96x60ht.u/?fname=https%3A%2F%2Ft1.daumcdn.net%2Fnews%2F202306%2F12%2Fyonhap%2F20230612160312560yiyq.jpg&scode=media" class="thumb_g" alt=""박진 &quot;日오염수 방류, 안전한 검증 이뤄지지 않으면 반대&quot;">
+                            </a>
+                        <div class="cont_thumb">
+                        <span class="info_thumb">
+                            <span class="logo_cp">
+                                    <img src="https://t1.daumcdn.net/media/news/news2016/cp/cp_yonhap.gif" class="thumb_g" alt="연합뉴스" onerror="this.style.display='none';">
+                            </span>
+                            <span class="txt_category">정치</span>
+                        </span>
+                            <strong class="tit_g">
+                                <a href="https://v.daum.net/v/20230612160312292" class="link_txt" data-tiara-layer="article_main" data-tiara-id="20230612160312292" data-tiara-type="harmony" data-tiara-ordnum="17" data-tiara-custom="contentUniqueKey=hamny-20230612160312292&clusterId=5587646,5590543,133556,5139529,5150092,5599922&clusterTitle=[언론사픽] 중복기사,[언론사픽] 주요뉴스,박진,[랭크업] 유레이더 1 OR 2 추가점수,정치,[품질검수] 뉴스 필터링&keywordType=NONE,NONE,NONE,NONE,NONE,NONE">
+                                    박진 "日오염수 방류, 안전한 검증 이뤄지지 않으면 반대"
+                                </a>
+                            </strong>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="item_issue" data-tiara-layer="headline1">
+                            <a href="https://v.daum.net/v/20230612150514751" class="wrap_thumb" data-tiara-layer="article_main" data-tiara-id="20230612150514751" data-tiara-type="harmony" data-tiara-ordnum="18" data-tiara-custom="contentUniqueKey=hamny-20230612150514751&clusterId=5590543,5139529,1691402&clusterTitle=[언론사픽] 주요뉴스,[랭크업] 유레이더 1 OR 2 추가점수,경상남도 김해시&keywordType=NONE,NONE,NONE">
+                                <img src="https://img1.daumcdn.net/thumb/S96x60ht.u/?fname=https%3A%2F%2Ft1.daumcdn.net%2Fnews%2F202306%2F12%2Fkookje%2F20230612150516050nuny.jpg&scode=media" class="thumb_g" alt=""인구 감소 직면한 김해시, 길거리 홍보전·모자운동회 열며 안간힘">
+                            </a>
+                        <div class="cont_thumb">
+                        <span class="info_thumb">
+                            <span class="logo_cp">
+                                    <img src="https://t1.daumcdn.net/media/news/news2016/cp/cp_kookje.gif" class="thumb_g" alt="국제신문" onerror="this.style.display='none';">
+                            </span>
+                            <span class="txt_category">사회</span>
+                        </span>
+                            <strong class="tit_g">
+                                <a href="https://v.daum.net/v/20230612150514751" class="link_txt" data-tiara-layer="article_main" data-tiara-id="20230612150514751" data-tiara-type="harmony" data-tiara-ordnum="18" data-tiara-custom="contentUniqueKey=hamny-20230612150514751&clusterId=5590543,5139529,1691402&clusterTitle=[언론사픽] 주요뉴스,[랭크업] 유레이더 1 OR 2 추가점수,경상남도 김해시&keywordType=NONE,NONE,NONE">
+                                    인구 감소 직면한 김해시, 길거리 홍보전·모자운동회 열며 안간힘
+                                </a>
+                            </strong>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="item_issue" data-tiara-layer="headline1">
+                            <a href="https://v.daum.net/v/20230612160203228" class="wrap_thumb" data-tiara-layer="article_main" data-tiara-id="20230612160203228" data-tiara-type="harmony" data-tiara-ordnum="19" data-tiara-custom="contentUniqueKey=hamny-20230612160203228&clusterId=5150091,5590543,1691418&clusterTitle=사회,[언론사픽] 주요뉴스,제주특별자치도 서귀포시&keywordType=NONE,NONE,NONE">
+                                <img src="https://img1.daumcdn.net/thumb/S96x60ht.u/?fname=https%3A%2F%2Ft1.daumcdn.net%2Fnews%2F202306%2F12%2FJTBC%2F20230612160207949ilow.jpg&scode=media" class="thumb_g" alt=""제주도 해안서 '식인' 무태상어 사체 발견…지난달엔 산 채로 잡히기도">
+                            </a>
+                        <div class="cont_thumb">
+                        <span class="info_thumb">
+                            <span class="logo_cp">
+                                    <img src="https://t1.daumcdn.net/media/news/news2016/cp/cp_JTBC.gif" class="thumb_g" alt="JTBC" onerror="this.style.display='none';">
+                            </span>
+                            <span class="txt_category">사회</span>
+                        </span>
+                            <strong class="tit_g">
+                                <a href="https://v.daum.net/v/20230612160203228" class="link_txt" data-tiara-layer="article_main" data-tiara-id="20230612160203228" data-tiara-type="harmony" data-tiara-ordnum="19" data-tiara-custom="contentUniqueKey=hamny-20230612160203228&clusterId=5150091,5590543,1691418&clusterTitle=사회,[언론사픽] 주요뉴스,제주특별자치도 서귀포시&keywordType=NONE,NONE,NONE">
+                                    제주도 해안서 '식인' 무태상어 사체 발견…지난달엔 산 채로 잡히기도
+                                </a>
+                            </strong>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="item_issue" data-tiara-layer="headline1">
+                        <div class="cont_thumb">
+                        <span class="info_thumb">
+                            <span class="logo_cp">
+                                    <img src="https://t1.daumcdn.net/media/news/2020/cp/cp_ytn.gif" class="thumb_g" alt="YTN" onerror="this.style.display='none';">
+                            </span>
+                            <span class="txt_category">사회</span>
+                        </span>
+                            <strong class="tit_g">
+                                <a href="https://v.daum.net/v/20230612160005103" class="link_txt" data-tiara-layer="article_main" data-tiara-id="20230612160005103" data-tiara-type="harmony" data-tiara-ordnum="20" data-tiara-custom="contentUniqueKey=hamny-20230612160005103&clusterId=5587646,5150091,5008621,5590543&clusterTitle=[언론사픽] 중복기사,사회,코로나바이러스감염증-19,[언론사픽] 주요뉴스&keywordType=NONE,NONE,NONE,NONE">
+                                    격리 해제 후 코로나 유행 감소세...지난주 일평균 만6천441명 확진
+                                </a>
+                            </strong>
+                        </div>
+                    </div>
+                </li>
+        </ul>
+    </div>
+    <div class="box_g" data-tiara-layer="today_series">
+        <h3 class="tit_box">오늘의 연재</h3>
+        <ul class="list_todayseries">
+                <li>
+                    <div class="item_todayseries">
+                        <div class="subtxt_thumb">
+                            <a href="/series/5016367" class="info_cp" data-tiara-layer="series" data-tiara-id="20230612161027582" data-tiara-type="harmony" data-tiara-ordnum="1" data-tiara-custom="contentUniqueKey=hamny-20230612161027582&clusterId=5016488,133926,5139529,5824979,5150092,5016367,5599922&clusterTitle=싱하이밍,시진핑,[랭크업] 유레이더 1 OR 2 추가점수,the300,정치,the300,[품질검수] 뉴스 필터링&keywordType=NONE,NONE,NONE,NONE,NONE,NONE,NONE"><span class="screen_out">출처
+                                </span>the300</a>
+                        </div>
+                        <a href="https://v.daum.net/v/20230612161027582" class="wrap_thumb" data-tiara-layer="article_thumb" data-tiara-id="20230612161027582" data-tiara-type="harmony" data-tiara-ordnum="1" data-tiara-custom="contentUniqueKey=hamny-20230612161027582&clusterId=5016488,133926,5139529,5824979,5150092,5016367,5599922&clusterTitle=싱하이밍,시진핑,[랭크업] 유레이더 1 OR 2 추가점수,the300,정치,the300,[품질검수] 뉴스 필터링&keywordType=NONE,NONE,NONE,NONE,NONE,NONE,NONE">
+                            <img src="https://img1.daumcdn.net/thumb/S112x70ht.u/?fname=https%3A%2F%2Ft1.daumcdn.net%2Fnews%2F202306%2F12%2Fmoneytoday%2F20230612161029289ncoz.jpg&scode=media" class="thumb_g" alt="싱하이밍 中대사 '韓서 1박 1000만원 접대·시진핑 비판' 논란">
+                        </a>
+                        <div class="cont_thumb">
+                            <strong class="tit_g">
+                                <a href="https://v.daum.net/v/20230612161027582" class="link_txt" data-tiara-layer="article" data-tiara-id="20230612161027582" data-tiara-type="harmony" data-tiara-ordnum="1" data-tiara-custom="contentUniqueKey=hamny-20230612161027582&clusterId=5016488,133926,5139529,5824979,5150092,5016367,5599922&clusterTitle=싱하이밍,시진핑,[랭크업] 유레이더 1 OR 2 추가점수,the300,정치,the300,[품질검수] 뉴스 필터링&keywordType=NONE,NONE,NONE,NONE,NONE,NONE,NONE">
+                                    싱하이밍 中대사 '韓서 1박 1000만원 접대·시진핑 비판' 논란
+                                </a>
+                            </strong>
+                            <span class="info_thumb">
+                                <span class="txt_info">머니투데이</span>
+                            </span>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="item_todayseries">
+                        <div class="subtxt_thumb">
+                            <a href="/series/5815191" class="info_cp" data-tiara-layer="series" data-tiara-id="20230612160926557" data-tiara-type="harmony" data-tiara-ordnum="2" data-tiara-custom="contentUniqueKey=hamny-20230612160926557&clusterId=5001160,5815191,5150099,5133624,5133653,5139529&clusterTitle=디바이스,미라클 레터,IT,애플,애플_주식기사,[랭크업] 유레이더 1 OR 2 추가점수&keywordType=INTEREST,NONE,NONE,INTEREST,NONE,NONE"><span class="screen_out">출처
+                                </span>미라클 레터</a>
+                        </div>
+                        <a href="https://v.daum.net/v/20230612160926557" class="wrap_thumb" data-tiara-layer="article_thumb" data-tiara-id="20230612160926557" data-tiara-type="harmony" data-tiara-ordnum="2" data-tiara-custom="contentUniqueKey=hamny-20230612160926557&clusterId=5001160,5815191,5150099,5133624,5133653,5139529&clusterTitle=디바이스,미라클 레터,IT,애플,애플_주식기사,[랭크업] 유레이더 1 OR 2 추가점수&keywordType=INTEREST,NONE,NONE,INTEREST,NONE,NONE">
+                            <img src="https://img1.daumcdn.net/thumb/S112x70ht.u/?fname=https%3A%2F%2Ft1.daumcdn.net%2Fnews%2F202306%2F12%2Fmk%2F20230612160928162epwt.jpg&scode=media" class="thumb_g" alt="애플이 공간 컴퓨팅 창조?… 사실은 100년 전에 시작됐다 [미라클레터]">
+                        </a>
+                        <div class="cont_thumb">
+                            <strong class="tit_g">
+                                <a href="https://v.daum.net/v/20230612160926557" class="link_txt" data-tiara-layer="article" data-tiara-id="20230612160926557" data-tiara-type="harmony" data-tiara-ordnum="2" data-tiara-custom="contentUniqueKey=hamny-20230612160926557&clusterId=5001160,5815191,5150099,5133624,5133653,5139529&clusterTitle=디바이스,미라클 레터,IT,애플,애플_주식기사,[랭크업] 유레이더 1 OR 2 추가점수&keywordType=INTEREST,NONE,NONE,INTEREST,NONE,NONE">
+                                    애플이 공간 컴퓨팅 창조?… 사실은 100년 전에 시작됐다 [미라클레터]
+                                </a>
+                            </strong>
+                            <span class="info_thumb">
+                                <span class="txt_info">매일경제</span>
+                            </span>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="item_todayseries">
+                        <div class="subtxt_thumb">
+                            <a href="/series/5184767" class="info_cp" data-tiara-layer="series" data-tiara-id="20230612160707437" data-tiara-type="harmony" data-tiara-ordnum="3" data-tiara-custom="contentUniqueKey=hamny-20230612160707437&clusterId=135691,5644735,5150092,5184767,5122206,5599922,5594094,5631281,5610628,5590543&clusterTitle=전현희,뉴스1 PICK,정치,뉴스1 PICK,[승인] 이미지성 기사,[품질검수] 뉴스 필터링,[언론사픽] 유통풀제외,[언론사픽] [유통풀제외] [부적합] 포토 슬롯 사용,[승인] 포토,[언론사픽] 주요뉴스&keywordType=NONE,NONE,NONE,NONE,NONE,NONE,NONE,NONE,NONE,NONE"><span class="screen_out">출처
+                                </span>뉴스1 PICK</a>
+                        </div>
+                        <a href="https://v.daum.net/v/20230612160707437" class="wrap_thumb" data-tiara-layer="article_thumb" data-tiara-id="20230612160707437" data-tiara-type="harmony" data-tiara-ordnum="3" data-tiara-custom="contentUniqueKey=hamny-20230612160707437&clusterId=135691,5644735,5150092,5184767,5122206,5599922,5594094,5631281,5610628,5590543&clusterTitle=전현희,뉴스1 PICK,정치,뉴스1 PICK,[승인] 이미지성 기사,[품질검수] 뉴스 필터링,[언론사픽] 유통풀제외,[언론사픽] [유통풀제외] [부적합] 포토 슬롯 사용,[승인] 포토,[언론사픽] 주요뉴스&keywordType=NONE,NONE,NONE,NONE,NONE,NONE,NONE,NONE,NONE,NONE">
+                            <img src="https://img1.daumcdn.net/thumb/S112x70ht.u/?fname=https%3A%2F%2Ft1.daumcdn.net%2Fnews%2F202306%2F12%2FNEWS1%2F20230612160708939oikk.jpg&scode=media" class="thumb_g" alt="[뉴스1 PICK]전현희 “감사원 보고서는 허위공문서…유병호 파면  요구”">
+                        </a>
+                        <div class="cont_thumb">
+                            <strong class="tit_g">
+                                <a href="https://v.daum.net/v/20230612160707437" class="link_txt" data-tiara-layer="article" data-tiara-id="20230612160707437" data-tiara-type="harmony" data-tiara-ordnum="3" data-tiara-custom="contentUniqueKey=hamny-20230612160707437&clusterId=135691,5644735,5150092,5184767,5122206,5599922,5594094,5631281,5610628,5590543&clusterTitle=전현희,뉴스1 PICK,정치,뉴스1 PICK,[승인] 이미지성 기사,[품질검수] 뉴스 필터링,[언론사픽] 유통풀제외,[언론사픽] [유통풀제외] [부적합] 포토 슬롯 사용,[승인] 포토,[언론사픽] 주요뉴스&keywordType=NONE,NONE,NONE,NONE,NONE,NONE,NONE,NONE,NONE,NONE">
+                                    [뉴스1 PICK]전현희 “감사원 보고서는 허위공문서…유병호 파면  요구”
+                                </a>
+                            </strong>
+                            <span class="info_thumb">
+                                <span class="txt_info">뉴스1</span>
+                            </span>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="item_todayseries">
+                        <div class="subtxt_thumb">
+                            <a href="/series/5094115" class="info_cp" data-tiara-layer="series" data-tiara-id="20230612151507147" data-tiara-type="harmony" data-tiara-ordnum="4" data-tiara-custom="contentUniqueKey=hamny-20230612151507147&clusterId=5654073,5001212,5590543,5094115,1691188,5150094&clusterTitle=부동산시장,부동산,[언론사픽] 주요뉴스,집슐랭,서울특별시 마포구,경제&keywordType=INTEREST,INTEREST,NONE,NONE,NONE,NONE"><span class="screen_out">출처
+                                </span>집슐랭</a>
+                        </div>
+                        <a href="https://v.daum.net/v/20230612151507147" class="wrap_thumb" data-tiara-layer="article_thumb" data-tiara-id="20230612151507147" data-tiara-type="harmony" data-tiara-ordnum="4" data-tiara-custom="contentUniqueKey=hamny-20230612151507147&clusterId=5654073,5001212,5590543,5094115,1691188,5150094&clusterTitle=부동산시장,부동산,[언론사픽] 주요뉴스,집슐랭,서울특별시 마포구,경제&keywordType=INTEREST,INTEREST,NONE,NONE,NONE,NONE">
+                            <img src="https://img1.daumcdn.net/thumb/S112x70ht.u/?fname=https%3A%2F%2Ft1.daumcdn.net%2Fnews%2F202306%2F12%2Fseouleconomy%2F20230612151511722lydk.png&scode=media" class="thumb_g" alt="매수세 회복 조짐에 보류지도 인기 ···조합들 잇따라 재매각 도전[집슐랭]">
+                        </a>
+                        <div class="cont_thumb">
+                            <strong class="tit_g">
+                                <a href="https://v.daum.net/v/20230612151507147" class="link_txt" data-tiara-layer="article" data-tiara-id="20230612151507147" data-tiara-type="harmony" data-tiara-ordnum="4" data-tiara-custom="contentUniqueKey=hamny-20230612151507147&clusterId=5654073,5001212,5590543,5094115,1691188,5150094&clusterTitle=부동산시장,부동산,[언론사픽] 주요뉴스,집슐랭,서울특별시 마포구,경제&keywordType=INTEREST,INTEREST,NONE,NONE,NONE,NONE">
+                                    매수세 회복 조짐에 보류지도 인기 ···조합들 잇따라 재매각 도전[집슐랭]
+                                </a>
+                            </strong>
+                            <span class="info_thumb">
+                                <span class="txt_info">서울경제</span>
+                            </span>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="item_todayseries">
+                        <div class="subtxt_thumb">
+                            <a href="/series/5468179" class="info_cp" data-tiara-layer="series" data-tiara-id="20230612155211789" data-tiara-type="harmony" data-tiara-ordnum="5" data-tiara-custom="contentUniqueKey=hamny-20230612155211789&clusterId=5587646,5150091,277543,5590543,971491,426,5468179,5670951&clusterTitle=[언론사픽] 중복기사,사회,더불어민주당,[언론사픽] 주요뉴스,MBC 뉴스외전,MBC,뉴스외전 이슈+,뉴스외전 이슈+&keywordType=NONE,NONE,NONE,NONE,NONE,NONE,NONE,NONE"><span class="screen_out">출처
+                                </span>뉴스외전 이슈+</a>
+                        </div>
+                        <a href="https://v.daum.net/v/20230612155211789" class="wrap_thumb" data-tiara-layer="article_thumb" data-tiara-id="20230612155211789" data-tiara-type="harmony" data-tiara-ordnum="5" data-tiara-custom="contentUniqueKey=hamny-20230612155211789&clusterId=5587646,5150091,277543,5590543,971491,426,5468179,5670951&clusterTitle=[언론사픽] 중복기사,사회,더불어민주당,[언론사픽] 주요뉴스,MBC 뉴스외전,MBC,뉴스외전 이슈+,뉴스외전 이슈+&keywordType=NONE,NONE,NONE,NONE,NONE,NONE,NONE,NONE">
+                            <img src="https://img1.daumcdn.net/thumb/S112x70ht.u/?fname=https%3A%2F%2Ft1.daumcdn.net%2Fnews%2F202306%2F12%2Fimbc%2F20230612155212472wptl.jpg&scode=media" class="thumb_g" alt="[뉴스외전 이슈+] 검찰, 경선 컨설팅업체 압수수색..'민주당 돈 봉투 의혹' 수사 분수령">
+                        </a>
+                        <div class="cont_thumb">
+                            <strong class="tit_g">
+                                <a href="https://v.daum.net/v/20230612155211789" class="link_txt" data-tiara-layer="article" data-tiara-id="20230612155211789" data-tiara-type="harmony" data-tiara-ordnum="5" data-tiara-custom="contentUniqueKey=hamny-20230612155211789&clusterId=5587646,5150091,277543,5590543,971491,426,5468179,5670951&clusterTitle=[언론사픽] 중복기사,사회,더불어민주당,[언론사픽] 주요뉴스,MBC 뉴스외전,MBC,뉴스외전 이슈+,뉴스외전 이슈+&keywordType=NONE,NONE,NONE,NONE,NONE,NONE,NONE,NONE">
+                                    [뉴스외전 이슈+] 검찰, 경선 컨설팅업체 압수수색..'민주당 돈 봉투 의혹' 수사 분수령
+                                </a>
+                            </strong>
+                            <span class="info_thumb">
+                                <span class="txt_info">MBC</span>
+                            </span>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="item_todayseries">
+                        <div class="subtxt_thumb">
+                            <a href="/series/5188741" class="info_cp" data-tiara-layer="series" data-tiara-id="20230612155214793" data-tiara-type="harmony" data-tiara-ordnum="6" data-tiara-custom="contentUniqueKey=hamny-20230612155214793&clusterId=5587646,132827,135475,5590543,971491,5188741,5690525,426,5150092,5599922&clusterTitle=[언론사픽] 중복기사,이성만,윤관석,[언론사픽] 주요뉴스,MBC 뉴스외전,뉴스외전 정치 맞수다,뉴스외전 정치 맞수다,MBC,정치,[품질검수] 뉴스 필터링&keywordType=NONE,NONE,NONE,NONE,NONE,NONE,NONE,NONE,NONE,NONE"><span class="screen_out">출처
+                                </span>뉴스외전 정치 맞수다</a>
+                        </div>
+                        <a href="https://v.daum.net/v/20230612155214793" class="wrap_thumb" data-tiara-layer="article_thumb" data-tiara-id="20230612155214793" data-tiara-type="harmony" data-tiara-ordnum="6" data-tiara-custom="contentUniqueKey=hamny-20230612155214793&clusterId=5587646,132827,135475,5590543,971491,5188741,5690525,426,5150092,5599922&clusterTitle=[언론사픽] 중복기사,이성만,윤관석,[언론사픽] 주요뉴스,MBC 뉴스외전,뉴스외전 정치 맞수다,뉴스외전 정치 맞수다,MBC,정치,[품질검수] 뉴스 필터링&keywordType=NONE,NONE,NONE,NONE,NONE,NONE,NONE,NONE,NONE,NONE">
+                            <img src="https://img1.daumcdn.net/thumb/S112x70ht.u/?fname=https%3A%2F%2Ft1.daumcdn.net%2Fnews%2F202306%2F12%2Fimbc%2F20230612155214725rkxp.jpg&scode=media" class="thumb_g" alt="[뉴스외전 정치 맞수다] '돈봉투 의혹' 윤관석·이성만 체포동의안 부결 파장은?">
+                        </a>
+                        <div class="cont_thumb">
+                            <strong class="tit_g">
+                                <a href="https://v.daum.net/v/20230612155214793" class="link_txt" data-tiara-layer="article" data-tiara-id="20230612155214793" data-tiara-type="harmony" data-tiara-ordnum="6" data-tiara-custom="contentUniqueKey=hamny-20230612155214793&clusterId=5587646,132827,135475,5590543,971491,5188741,5690525,426,5150092,5599922&clusterTitle=[언론사픽] 중복기사,이성만,윤관석,[언론사픽] 주요뉴스,MBC 뉴스외전,뉴스외전 정치 맞수다,뉴스외전 정치 맞수다,MBC,정치,[품질검수] 뉴스 필터링&keywordType=NONE,NONE,NONE,NONE,NONE,NONE,NONE,NONE,NONE,NONE">
+                                    [뉴스외전 정치 맞수다] '돈봉투 의혹' 윤관석·이성만 체포동의안 부결 파장은?
+                                </a>
+                            </strong>
+                            <span class="info_thumb">
+                                <span class="txt_info">MBC</span>
+                            </span>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="item_todayseries">
+                        <div class="subtxt_thumb">
+                            <a href="/series/5788452" class="info_cp" data-tiara-layer="series" data-tiara-id="20230612153702129" data-tiara-type="harmony" data-tiara-ordnum="7" data-tiara-custom="contentUniqueKey=hamny-20230612153702129&clusterId=5599932,5590543,5077043,5788452,5831118&clusterTitle=[품질검수] 자동승인 뉴스,[언론사픽] 주요뉴스,[승인취소] 광고,하수정의 티타임,하수정의 티타임&keywordType=NONE,NONE,NONE,NONE,NONE"><span class="screen_out">출처
+                                </span>하수정의 티타임</a>
+                        </div>
+                        <a href="https://v.daum.net/v/20230612153702129" class="wrap_thumb" data-tiara-layer="article_thumb" data-tiara-id="20230612153702129" data-tiara-type="harmony" data-tiara-ordnum="7" data-tiara-custom="contentUniqueKey=hamny-20230612153702129&clusterId=5599932,5590543,5077043,5788452,5831118&clusterTitle=[품질검수] 자동승인 뉴스,[언론사픽] 주요뉴스,[승인취소] 광고,하수정의 티타임,하수정의 티타임&keywordType=NONE,NONE,NONE,NONE,NONE">
+                            <img src="https://img1.daumcdn.net/thumb/S112x70ht.u/?fname=https%3A%2F%2Ft1.daumcdn.net%2Fnews%2F202306%2F12%2Fked%2F20230612153703598xxlc.jpg&scode=media" class="thumb_g" alt="'하이볼 에스프레소'에 반했다…2030 핫플로 뜨는 '술 카페' [하수정의 티타임]">
+                        </a>
+                        <div class="cont_thumb">
+                            <strong class="tit_g">
+                                <a href="https://v.daum.net/v/20230612153702129" class="link_txt" data-tiara-layer="article" data-tiara-id="20230612153702129" data-tiara-type="harmony" data-tiara-ordnum="7" data-tiara-custom="contentUniqueKey=hamny-20230612153702129&clusterId=5599932,5590543,5077043,5788452,5831118&clusterTitle=[품질검수] 자동승인 뉴스,[언론사픽] 주요뉴스,[승인취소] 광고,하수정의 티타임,하수정의 티타임&keywordType=NONE,NONE,NONE,NONE,NONE">
+                                    '하이볼 에스프레소'에 반했다…2030 핫플로 뜨는 '술 카페' [하수정의 티타임]
+                                </a>
+                            </strong>
+                            <span class="info_thumb">
+                                <span class="txt_info">한국경제</span>
+                            </span>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="item_todayseries">
+                        <div class="subtxt_thumb">
+                            <a href="/series/5806248" class="info_cp" data-tiara-layer="series" data-tiara-id="20230612155514915" data-tiara-type="harmony" data-tiara-ordnum="8" data-tiara-custom="contentUniqueKey=hamny-20230612155514915&clusterId=317579,5139529,5079747,5806248,445,5150092,5599922&clusterTitle=조국,[랭크업] 유레이더 1 OR 2 추가점수,[랭크업] 1800자 이상 OR 유레이더2 이상,Y녹취록,YTN,정치,[품질검수] 뉴스 필터링&keywordType=NONE,NONE,NONE,NONE,NONE,NONE,NONE"><span class="screen_out">출처
+                                </span>Y녹취록</a>
+                        </div>
+                        <a href="https://v.daum.net/v/20230612155514915" class="wrap_thumb" data-tiara-layer="article_thumb" data-tiara-id="20230612155514915" data-tiara-type="harmony" data-tiara-ordnum="8" data-tiara-custom="contentUniqueKey=hamny-20230612155514915&clusterId=317579,5139529,5079747,5806248,445,5150092,5599922&clusterTitle=조국,[랭크업] 유레이더 1 OR 2 추가점수,[랭크업] 1800자 이상 OR 유레이더2 이상,Y녹취록,YTN,정치,[품질검수] 뉴스 필터링&keywordType=NONE,NONE,NONE,NONE,NONE,NONE,NONE">
+                            <img src="https://img1.daumcdn.net/thumb/S112x70ht.u/?fname=https%3A%2F%2Ft1.daumcdn.net%2Fnews%2F202306%2F12%2FYTN%2F20230612155515081yrfr.jpg&scode=media" class="thumb_g" alt="조국 &quot;'길 없는 길' 걸어가겠다&quot;...&quot;사실상 출마 선언&quot; [Y녹취록]">
+                        </a>
+                        <div class="cont_thumb">
+                            <strong class="tit_g">
+                                <a href="https://v.daum.net/v/20230612155514915" class="link_txt" data-tiara-layer="article" data-tiara-id="20230612155514915" data-tiara-type="harmony" data-tiara-ordnum="8" data-tiara-custom="contentUniqueKey=hamny-20230612155514915&clusterId=317579,5139529,5079747,5806248,445,5150092,5599922&clusterTitle=조국,[랭크업] 유레이더 1 OR 2 추가점수,[랭크업] 1800자 이상 OR 유레이더2 이상,Y녹취록,YTN,정치,[품질검수] 뉴스 필터링&keywordType=NONE,NONE,NONE,NONE,NONE,NONE,NONE">
+                                    조국 "'길 없는 길' 걸어가겠다"..."사실상 출마 선언" [Y녹취록]
+                                </a>
+                            </strong>
+                            <span class="info_thumb">
+                                <span class="txt_info">YTN</span>
+                            </span>
+                        </div>
+                    </div>
+                </li>
+        </ul>
+        <a href="/series/" class="link_more" data-tiara-layer="today_series more">전체보기</a>
+    </div>
+    </div>
+                <div class="content-aside">
+<div class="box_side" data-tiara-layer="RIGHT today">
+        <h3 class="screen_out">코스피/코스닥 지수</h3>
+        <div class="stock_wrap">
+            <div class="price_stock">
+                        <a href="https://finance.daum.net/domestic/kospi" alt="다음금융 코스피" data-tiara-layer="newssection finance kospi">
+                            <div class="item_kospi">
+                                <strong class="tit_stock">코스피</strong>
+                                <span class="rate_stock rate_down">
+                                <!-- 상승 rate_up, 하락 rate_down 클래스 추가 -->
+                                <span class="num_stock">2,629.35</span>
+                                <span class="num_change">
+                                    <span class="num_prev">
+                                        <!-- 상승 ico_up, 하락 ico_down, 보합 ico_same 클래스 적용 -->
+                                        <span class="screen_out">전일비</span><span class="ico_down">상승</span>
+                                             11.81
+                                    </span>
+                                    <span class="num_rate">
+                                        <span class="screen_out">등락률</span>(-0.45%)
+                                    </span>
+                                </span>
+                                </span>
+                            </div>
+                        </a>
+                        <a href="https://finance.daum.net/domestic/kosdaq" alt="다음금융 코스닥" data-tiara-layer="newssection finance kosdaq">
+                            <div class="item_kosdaq">
+                                <strong class="tit_stock">코스닥</strong>
+                                <span class="rate_stock rate_up">
+                                <span class="num_stock">885.76</span>
+                                <span class="num_change">
+                                    <span class="num_prev">
+                                        <span class="screen_out">전일비</span><span class="ico_up">하락</span>
+                                             2.05
+                                    </span>
+                                    <span class="num_rate">
+                                        <span class="screen_out">등락률</span>(0.23%)
+                                    </span>
+                                </span>
+                                </span>
+                            </div>
+                        </a>
+            </div>
+            <span class="time_stock">
+                <span class="screen_out">기준시간</span>
+                장마감
+            </span>
+        </div>
+</div>
+<div class="box_side box_ad">
+    <ins class="kakao_ad_area aside_ad" style="display:block"
+    data-ad-param-channel="media"
+    data-ad-param-cp="pc_media_news"
+    data-ad-frame-id = "AMS_250exp"
+    data-ad-frame-name = "AMS_250exp"
+    data-ad-unit = "05d22"
+    data-ad-type = "D"
+    data-ad-width = "250"
+    data-ad-height = "250" >
+    </ins>
+</div>
+                    <!-- 배너 -->
+    <div class="box_side box_photonews" data-tiara-layer="photonews">
+        <h3 class="tit_box">포토 뉴스</h3>
+        <ul class="list_photonews">
+                    <li data-tiara-layer="article">
+                        <div class="item_photonews">
+                            <a href="https://gallery.v.daum.net/p/viewer/5612596/fJVwxDlfqf" class="wrap_thumb" data-tiara-id="20230612160936559" data-tiara-type="harmony" data-tiara-ordnum="1" data-tiara-custom="contentUniqueKey=hamny-20230612160936559">
+                                <img src="https://img1.daumcdn.net/thumb/S302x170ht.u/?fname=https%3A%2F%2Ft1.daumcdn.net%2Fnews%2F202306%2F12%2Fmoneyweek%2F20230612160937363yxog.jpg&scode=media" class="thumb_g" alt="">
+                                <span class="ico_news ico_photo">포토갤러리</span>
+                            </a>
+                            <div class="cont_thumb">
+                                <strong class="tit_g">
+                                    <a href="https://gallery.v.daum.net/p/viewer/5612596/fJVwxDlfqf" class="link_txt" data-tiara-id="20230612160936559" data-tiara-type="harmony" data-tiara-ordnum="1" data-tiara-custom="contentUniqueKey=hamny-20230612160936559"> 화재 훈련 브리핑 경청하는 금감원·소방청 및 내외빈</a>
+                                </strong>
+                                <a href="https://gallery.v.daum.net/p/viewer/5612596/" class="info_cp" data-tiara-id="5612596" data-tiara-type="gallery" data-tiara-ordnum="1" data-tiara-custom="contentUniqueKey=gallery=5612596"><span class="screen_out">출처 </span>머니S포토</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li data-tiara-layer="article">
+                        <div class="item_photonews">
+                            <a href="https://gallery.v.daum.net/p/viewer/5024184/KdspC0Kwpq" class="wrap_thumb" data-tiara-id="20230612160808476" data-tiara-type="harmony" data-tiara-ordnum="2" data-tiara-custom="contentUniqueKey=hamny-20230612160808476">
+                                <img src="https://img1.daumcdn.net/thumb/S302x170ht.u/?fname=https%3A%2F%2Ft1.daumcdn.net%2Fnews%2F202306%2F12%2FTHEFACT%2F20230612160810792rzxf.jpg&scode=media" class="thumb_g" alt="">
+                                <span class="ico_news ico_photo">포토갤러리</span>
+                            </a>
+                            <div class="cont_thumb">
+                                <strong class="tit_g">
+                                    <a href="https://gallery.v.daum.net/p/viewer/5024184/KdspC0Kwpq" class="link_txt" data-tiara-id="20230612160808476" data-tiara-type="harmony" data-tiara-ordnum="2" data-tiara-custom="contentUniqueKey=hamny-20230612160808476">한미동맹 70주년 안보세미나 '핵추진 잠수함 필요성 토론' </a>
+                                </strong>
+                                <a href="https://gallery.v.daum.net/p/viewer/5024184/" class="info_cp" data-tiara-id="5024184" data-tiara-type="gallery" data-tiara-ordnum="2" data-tiara-custom="contentUniqueKey=gallery=5024184"><span class="screen_out">출처 </span>TF사진관</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li data-tiara-layer="article">
+                        <div class="item_photonews">
+                            <a href="https://gallery.v.daum.net/p/viewer/2648/1edb6cI97d" class="wrap_thumb" data-tiara-id="20230612160630412" data-tiara-type="harmony" data-tiara-ordnum="3" data-tiara-custom="contentUniqueKey=hamny-20230612160630412">
+                                <img src="https://img1.daumcdn.net/thumb/S302x170ht.u/?fname=https%3A%2F%2Ft1.daumcdn.net%2Fnews%2F202306%2F12%2FNEWS1%2F20230612160632331waof.jpg&scode=media" class="thumb_g" alt="">
+                                <span class="ico_news ico_photo">포토갤러리</span>
+                            </a>
+                            <div class="cont_thumb">
+                                <strong class="tit_g">
+                                    <a href="https://gallery.v.daum.net/p/viewer/2648/1edb6cI97d" class="link_txt" data-tiara-id="20230612160630412" data-tiara-type="harmony" data-tiara-ordnum="3" data-tiara-custom="contentUniqueKey=hamny-20230612160630412">한덕수 총리에 대정부 질문 하는 김석기 의원</a>
+                                </strong>
+                                <a href="https://gallery.v.daum.net/p/viewer/2648/" class="info_cp" data-tiara-id="2648" data-tiara-type="gallery" data-tiara-ordnum="3" data-tiara-custom="contentUniqueKey=gallery=2648"><span class="screen_out">출처 </span>국회 대정부질문</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li data-tiara-layer="article">
+                        <div class="item_photonews">
+                            <a href="https://gallery.v.daum.net/p/viewer/379/ypEvH9xv6Z" class="wrap_thumb" data-tiara-id="20230612160131206" data-tiara-type="harmony" data-tiara-ordnum="4" data-tiara-custom="contentUniqueKey=hamny-20230612160131206">
+                                <img src="https://img1.daumcdn.net/thumb/S302x170ht.u/?fname=https%3A%2F%2Ft1.daumcdn.net%2Fnews%2F202306%2F12%2Fkppa%2F20230612160132667aofu.jpg&scode=media" class="thumb_g" alt="">
+                                <span class="ico_news ico_photo">포토갤러리</span>
+                            </a>
+                            <div class="cont_thumb">
+                                <strong class="tit_g">
+                                    <a href="https://gallery.v.daum.net/p/viewer/379/ypEvH9xv6Z" class="link_txt" data-tiara-id="20230612160131206" data-tiara-type="harmony" data-tiara-ordnum="4" data-tiara-custom="contentUniqueKey=hamny-20230612160131206"> 비우는 삶</a>
+                                </strong>
+                                <a href="https://gallery.v.daum.net/p/viewer/379/" class="info_cp" data-tiara-id="379" data-tiara-type="gallery" data-tiara-ordnum="4" data-tiara-custom="contentUniqueKey=gallery=379"><span class="screen_out">출처 </span>포토친구</a>
+                            </div>
+                        </div>
+                    </li>
+        </ul>
+    </div>
+                    <!-- 바로잡습니다 -->
+                    <div class="box_side" data-tiara-layer="right">
+                        <h3 class="tit_box">고침기사, 정정・반론・추후보도 모음</h3>
+                        <ul class="list_correct">
+                            <li><a href="/info/correct" class="link_correct" data-tiara-layer="correct">언론사 고침기사<span class="ico_news ico_arr"> 바로가기</span></a></li>
+                            <li><a href="/info/revision" class="link_correct" data-tiara-layer="revision">정정・반론・추후보도 기사<span class="ico_news ico_arr"> 바로가기</span></a></li>
+                            <li><a href="/info/unfair" class="link_correct" data-tiara-layer="unfair">불공정 선거보도<span class="ico_news ico_arr"> 바로가기</span></a></li>
+                        </ul> <a href="/info/correct" class="link_more" data-tiara-layer="more">더보기</a>
+                    </div>
+
+<div class="box_side box_ad">
+    <ins class="kakao_ad_area" style="display:block"
+         data-ad-param-channel="media"
+         data-ad-param-cp="pc_media_news"
+         data-ad-frame-id = "AMS_250exp"
+         data-ad-frame-name = "AMS_250exp"
+                            data-ad-unit = "DAN-WApyM79GH3N7yEg9"
+         data-ad-type = "D"
+         data-ad-width = "250"
+         data-ad-height = "250"></ins>
+</div>
+
+
+                    <!-- 배너 -->
+                </div>
+            </div>
+    </section>
+</main>
+
+
+<footer id="kakaoFoot" class="doc-footer">
+    <div class="inner_foot #FOOTER" data-tiara-layer="FOOTER">
+        <div class="direct_link #direct" data-tiara-layer="direct">
+            <h2 class="tit_direct">바로가기</h2>
+            <div class="item_bundle">
+                <a href="/" class="link_txt #direct_newshome" data-tiara-layer="direct_newshome">뉴스홈</a>
+                <a href="/society" class="link_txt #direct_society" data-tiara-layer="direct_society">사회</a>
+                <a href="/politics" class="link_txt #direct_politics" data-tiara-layer="direct_politics">정치</a>
+                <a href="/economic" class="link_txt #direct_economic" data-tiara-layer="direct_economic">경제</a>
+                <a href="/foreign" class="link_txt #direct_foreign" data-tiara-layer="direct_foreign">국제</a>
+                <a href="/culture" class="link_txt #direct_culture" data-tiara-layer="direct_culture">문화</a>
+                <a href="/digital" class="link_txt #direct_digital" data-tiara-layer="direct_digital">IT</a>
+                <a href="/photo" class="link_txt #direct_photo" data-tiara-layer="direct_photo">포토</a>
+            </div>
+            <div class="item_bundle">
+                <a href="/cp" class="link_txt #direct_media" data-tiara-layer="direct_media">언론사별 뉴스</a>
+            </div>
+            <div class="item_bundle">
+                <a href="/newsbox" class="link_txt #direct_history" data-tiara-layer="direct_history">배열이력</a>
+            </div>
+            <div class="item_bundle">
+                <a href="/breakingnews" class="link_txt #direct_all" data-tiara-layer="direct_all">전체뉴스</a>
+                <a href="/series" class="link_txt #direct_series" data-tiara-layer="direct_series">연재</a>
+                <a href="https://focus.daum.net/ch/news/factcheck" class="link_txt #direct_factcheck" data-tiara-layer="direct_factcheck">팩트체크</a>
+            </div>
+            <button type="button" class="btn_fold"><span class="ico_news">바로가기 링크 더보기/접기</span></button>
+        </div>
+        <h2 class="screen_out">서비스 이용정보</h2>
+        <div class="footer_link">
+            <a href="/info/intro" class="link_info #info_daumnews" data-tiara-layer="info_daumnews">다음뉴스 소개</a>
+            <span class="txt_dot"> ・ </span> <a href="https://magazine.daum.net/daumnews_notice" class="link_info #notice" data-tiara-layer="notice">공지사항</a>
+            <span class="txt_dot"> ・ </span> <a href="/info/bbsrule" class="link_info #bbsrule" data-tiara-layer="bbsrule">게시물 운영원칙</a>
+            <span class="txt_dot"> ・ </span> <a href="http://policy.daum.net/info/info" class="link_info #policy" data-tiara-layer="policy">서비스 약관/정책</a>
+            <span class="txt_dot"> ・ </span> <a href="https://with.kakao.com/media" class="link_info #harmony" data-tiara-layer="harmony">뉴스제휴</a>
+            <span class="txt_dot"> ・ </span> <a href="https://business.kakao.com" class="link_info #adinfo" data-tiara-layer="adinfo">비즈니스</a>
+            <span class="txt_dot"> ・ </span> <a href="https://cs.daum.net/redbell/top.html" class="link_info #redbell" data-tiara-layer="redbell">권리침해신고</a>
+            <span class="txt_dot"> ・ </span> <a href="http://cs.daum.net/faq/63.html" class="link_info #consumer" data-tiara-layer="consumer">다음뉴스 고객센터</a>
+        </div>
+        <div class="footer_link"> <a href="/info/newscenter24" class="link_info #newscenter" data-tiara-layer="newscenter">24시간 뉴스센터</a>
+            <span class="txt_dot"> ・ </span> <a href="/info/edit" class="link_info #edit" data-tiara-layer="edit">서비스원칙</a>
+            <span class="txt_dot"> ・ </span> <a href="/info/correct" class="link_info #correct" data-tiara-layer="correct">고침기사, 정정・반론・추후보도 모음</a>
+            <span class="txt_dot"> ・ </span> <span class="link_info">기사배열책임자 : 황유지</span> <span class="txt_dot"> ・ </span>
+            <span class="link_info">청소년보호책임자 : 손성희</span>
+        </div>
+        <div class="info_copyright">
+            <strong class="info_warn">뉴스 기사에 대한 저작권 및 법적 책임은 자료제공사 또는 <br>글쓴이에 있으며, Kakao의 입장과 다를 수 있습니다.</strong>
+            <small class="txt_copyright">Copyright © <strong class="txt_kakao"><a href="http://www.kakaocorp.com/" class="link_kakao">Kakao Corp.</a></strong> All rights reserved.</small>
+        </div>
+    </div>
+</footer>
+
+<script src="//t1.daumcdn.net/media/kraken/news/76ecae5/footer.merged.js"></script>
+    <script async type="text/javascript" src="//t1.daumcdn.net/kas/static/ba.min.js"></script>
+</div>
+</body>
+</html>
